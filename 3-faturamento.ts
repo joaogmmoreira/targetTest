@@ -29,7 +29,7 @@ function calcularFaturamento(
   };
 }
 
-fs.readFile("faturamento.json", "utf8", (err, data) => {
+fs.readFile("dados.json", "utf8", (err, data) => {
   if (err) {
     console.log("Erro ao ler o arquivo", err);
     return;
